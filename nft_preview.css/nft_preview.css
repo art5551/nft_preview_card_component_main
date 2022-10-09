@@ -11,12 +11,12 @@ body{
 .container{
   
   background-color: hsl(216, 50%, 16%);
-  width: 400px;
-  height: 600px;
+  width: 300px;
+  height: 500px;
   margin-top: 100px;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 15px;
+  border-radius: 5px;
   /* Box shadows can combine by using a comma in-between each set */
   /* See https://www.youtube.com/watch?v=-JNRQ5HjNeI for full set of details */
   box-shadow: 10px 10px 10px, -10px 10px 10px;
@@ -27,18 +27,16 @@ body{
   /* https://www.youtube.com/watch?v=gD3G67oPg-w */
   position: relative;
   top: 20px;
-  width: 360px;
-  height: 400px;
+  width: 260px;
+  height: 250px;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 15px;
-  border: 2px solid white;
 }
 
 .nft-image img{
   height: 100%;
   width: 100%;
-  border-radius: 15px;
+  border-radius: 5px;
 }
 
 .nft-header{
@@ -46,7 +44,67 @@ body{
   top: 20px;
   padding-left: 15px;
   font-family: Outfit;
+  font-size: 20px;
   font-weight: 600;
   color: white;
+}
 
+.nft-description{
+  font-family: Outfit;
+  font-size: 18px;
+  font-weight: 300;
+  color: hsl(215, 51%, 70%);;
+  padding-left: 15px;
+  padding-top: 5px;
+}
+
+/* To include eth icon, amount an dtime remaining */
+.nft-information{
+  display: flex;
+  font-family: Outfit;
+  font-size: 18px;
+  font-weight: 300;
+  color: white;
+  padding-left: 15px;
+  justify-content: space-between;
+}
+
+.nft-time-remaining{
+  padding-right: 15px;
+}
+
+.nft-time-remaining span{
+  color: hsl(215, 51%, 70%);
+}
+
+.eth-image span{
+  color: hsl(178, 100%, 50%);
+}
+
+hr{
+  border-color: hsl(215, 32%, 27%);
+  width: 90%;
+}
+
+.creator-tag{
+  display: flex;
+  width: 100%;
+  height: 60px;
+}
+
+.creator-tag img{
+  padding-left: 15px;
+  height: 90%;
+}
+
+.creator-tag span{
+  color: hsl(215, 51%, 70%);;
+}
+
+.creator-tag p{
+  font-family: Outfit;
+  font-size: 15px;
+  font-weight: 300;
+  padding-left: 10px;
+  color: white;
 }
