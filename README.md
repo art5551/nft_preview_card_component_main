@@ -43,6 +43,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
+
+
 How to better use flex display properties to align objects.
 How to change display of an <hr> element
 Watched video to add the box shadow.

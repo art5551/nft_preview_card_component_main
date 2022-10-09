@@ -1,57 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="nft_preview.css/nft_preview.css">
-  <title>Frontend Mentor | NFT preview card component</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="nft_preview.css/nft_preview.css">
+    <title>Frontend Mentor | NFT preview card component</title>
+  </head>
+    <main>
+      <section class="card-container">
+        <div class="nft-image">
+          <img src="images/image-equilibrium.jpg" alt="NFT preview">
+        </div>
+        <div class="nft-header">
+          <h3>Equilibrium #3429</h3>
+        </div>
+        <div class="nft-description">
+          <p>Our Equilibrium collection promotes balance and calm.</p>
+        </div>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <div class="nft-image">
-      <img src="images/image-equilibrium.jpg" alt="NFT preview">
+        <!-- The following is display flex -->
+        <div class="nft-information">
+          <div class="eth-image">
+            <img src="images/icon-ethereum.svg" alt="ethereum ico">
+            <span>0.041 ETH</span>
+          </div>
+
+          <div class="nft-time-remaining">
+            <img src="images/icon-clock.svg" alt="ethereum ico">
+            <span style="padding-left: 3px";>3 days left</span>
+          </div>            
+        </div>
+        <!-- End display flex -->
+
+        <hr>
+        <div class="creator-tag">
+            <img src="images/image-avatar.png" alt="picture of creator">   
+            <p><span>Creation of</span> Jules Wyvern</p>
+        </div>
+        
+      </section>
+  </main>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Arthur Stark</a>.
     </div>
-    <div class="nft-header">
-      <p>Equilibrium #3429</p>
-    </div>
-    <div class="nft-description">
-      <p>Our Equilibrium collection promotes balance and calm.</p>
-    </div>
 
-    <!-- The following is display flex -->
-    <div class="nft-information">
-      <div class="eth-image">
-        <img src="images/icon-ethereum.svg" alt="ethereum ico">
-        <span style="padding: 5px;">0.041 ETH</span>
-      </div>
-
-      <div class="nft-time-remaining">
-        <img src="images/icon-clock.svg" alt="ethereum ico">
-        <span style="padding-left: 3px";>3 days left</span>
-      </div>            
-    </div>
-    <!-- End display flex -->
-
-    <hr>
-    <div class="creator-tag">
-        <img src="images/image-avatar.png" alt="picture of creator">   
-        <p><span>Creation of</span> Jules Wyvern</p>
-    </div>
-    
-  </div>
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Arthur Stark</a>.
-  </div>
-
-</body>
+  </body>
 </html>
