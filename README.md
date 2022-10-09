@@ -54,7 +54,7 @@ To see how you can add code snippets, see below:
 
 ## Author
 
-- Website - [Arthur Stark](https://www.your-site.com)
+- Website - [Arthur Stark](https://art5551.github.io/nft_preview_card_component_main/)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
 - Twitter - [@Akie42528491](https://www.twitter.com/@Akie42528491)
 
