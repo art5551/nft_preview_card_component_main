@@ -3,11 +3,19 @@
   src: url(https://fonts.google.com/specimen/Outfit);
 }
 
+.attribution { 
+  font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
+
 body{
   min-height: 100vh;
   display: grid;
   place-content: center;
-  font-family: Outfit;
+  font-family: Outfit, sans-serif;
   background-color: hsl(217, 54%, 11%);
 }
 
@@ -30,7 +38,7 @@ body{
 }
 
 .nft-description{
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 300;
   color: hsl(215, 51%, 70%);
 }
@@ -38,8 +46,7 @@ body{
 /* To include eth icon, amount an dtime remaining */
 .nft-information{
   display: flex;
-  font-family: Outfit;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 300;
   color: white;
   justify-content: space-between;
